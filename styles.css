@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	gap:5px;
+}
+.item{
+	height:50px;
+	width:50px;
+}
+.holder div:nth-child(even){
+	background-color:green;
+}
+.holder div:nth-child(odd){
+	background-color:red;
+}
